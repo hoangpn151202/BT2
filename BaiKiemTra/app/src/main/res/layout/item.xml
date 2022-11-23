@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:elevation="6dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="#BCDAB564">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/anh"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FFFDFD"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ten"
+            android:text="ten"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="@color/purple_700"
+            android:layout_toRightOf="@id/anh"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_capBac"
+            android:text="Cấp bậc:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#03A9F4"
+            android:layout_toRightOf="@id/anh"
+            android:layout_below="@id/ten"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/capBac"
+            android:text="cap bac"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#DD5126"
+            android:layout_toRightOf="@id/tv_capBac"
+            android:layout_below="@id/ten"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_noiCongTac"
+            android:text="Nơi công tác:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#03A9F4"
+            android:layout_toRightOf="@id/anh"
+            android:layout_below="@id/capBac"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/noiCongTac"
+            android:text="noi cong tac"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#DD5126"
+            android:layout_toRightOf="@id/tv_noiCongTac"
+            android:layout_below="@id/capBac"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_quocGia"
+            android:text="Quốc gia:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#03A9F4"
+            android:layout_toRightOf="@id/anh"
+            android:layout_below="@id/noiCongTac"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quocGia"
+            android:text="quoc gia"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#DD5126"
+            android:layout_toRightOf="@id/tv_quocGia"
+            android:layout_below="@id/noiCongTac"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_soSao"
+            android:text="Sao tín nhiệm:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#03A9F4"
+            android:layout_toRightOf="@id/anh"
+            android:layout_below="@id/quocGia"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/soSao"
+            android:text="so sao"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="#DD5126"
+            android:layout_toRightOf="@id/tv_soSao"
+            android:layout_below="@id/quocGia"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
